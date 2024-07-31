@@ -338,8 +338,8 @@ function setup_chatwoot() {
   rvm install "ruby-3.2.2"
   rvm use 3.2.2 --default
 
-  git clone https://github.com/sendingtk/chatwoot.git
-  cd chatwoot
+  git clone https://github.com/TecSecret/chat-rodadecuia.git
+  cd chat-rodadecuia
   git checkout "$BRANCH"
   chmod -R 777 bin
   bundle
@@ -446,10 +446,10 @@ function ssl_success_message() {
     cat << EOF
 
 ***************************************************************************
-Woot! Woot!! Chatwoot server installation is complete.
+Woot! Woot!! Chat Roda de Cuia server installation is complete.
 The server will be accessible at https://$domain_name
 
-Join the community at https://chatwoot.com/community?utm_source=cwctl
+Join the community at https://rodadecuia.com.br
 ***************************************************************************
 
 EOF

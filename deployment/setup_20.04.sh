@@ -338,8 +338,8 @@ function setup_chatwoot() {
   rvm install "ruby-3.3.3"
   rvm use 3.3.3 --default
 
-  git clone https://github.com/sendingtk/chatwoot.git
-  cd chatwoot
+  git clone https://github.com/TecSecret/chat-rodadecuia.git
+  cd chat-rodadecuia
   git checkout "$BRANCH"
   chmod -R 777 bin
   bundle
